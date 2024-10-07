@@ -1,0 +1,1106 @@
+@charset "utf-8";
+/* css danh cho tat ca cac trang*/
+/* EMBED FONT */
+@font-face{
+    font-family: medtextfont;
+    src: url(../font/SF-Pro-Text-Medium.ttf),
+    url(../font/SF-Pro-Text-Medium.eot),
+    url(../font/SF-Pro-Text-Medium.woff);
+}
+@font-face{
+    font-family: titlefont;
+    src: url(../font/SF-Pro-Text-Bold.ttf),
+    url(../font/SF-Pro-Text-Bold.eot),
+    url(../font/SF-Pro-Text-Bold.woff);
+}
+
+@font-face{
+    font-family: textfont;
+    src: url(../font/SF-Pro-Text-Regular.ttf),
+    url(../font/SF-Pro-Text-Regular.eot),
+    url(../font/SF-Pro-Text-Medium.woff);}
+
+/* FONT FORMAT */
+h1{ font-size: 64px;
+    font-family: titlefont;
+    }
+
+h3{ font-size: 32px;
+    font-family: titlefont;
+    }
+h4{ font-size: 24px;    
+    font-family: titlefont;
+    }
+h5{ font-size: 20px;
+    font-family: titlefont;
+    }
+
+/* FORMAT */
+body{
+background-color: #fff;
+font-family: medtextfont;
+}
+ .clearf{
+     clear: both;
+}
+    
+html{
+    scroll-behavior: smooth;
+}
+
+#blackscreen{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index:1800;
+}
+
+#blackscreen2{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index:1800;
+}
+
+#blackscreen3{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index:1800;
+}
+
+#topbtn{
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size: 20pt;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1800;
+    transition: all ease 0.5;
+}
+
+/* LOGO */
+#logoinheader ul{
+    list-style-type: none;
+    margin-right: 0px;
+    padding: 0px;
+    vertical-align: middle;
+    text-align: center;
+}
+#logoinheader ul li{
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin-right: 0px;
+    padding: 0px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 90px;
+}
+/* LOGO */
+
+/* NAVI */
+#bgheader{
+    height: 100px;
+    background-color: white;
+    border-bottom: solid 1pt #DADADA;
+}
+
+#bgheader1{
+    height: 90px;
+    background-color: white;
+}
+
+#navi a{
+font-size: 14px;
+text-align: center;
+text-decoration: none;
+transition: all ease .5s;
+font-family: inherit;
+line-height: 60px;
+}
+
+#navi ul{
+    list-style-type: none;
+    padding: 0px;
+    z-index: 10000;
+}
+#navi ul li{
+    display: inline-block;
+    position: relative;
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+}
+#navi ul li a{
+    font-family: medtextfont;
+    display: block;
+    color: black;
+    text-decoration: none;
+    transition: all ease .5s;
+    padding: 16px;
+    text-align: center;
+}
+
+.navi{
+    position: relative;
+}
+
+.dropdown-menu{
+width: 250px;
+list-style: none;
+margin:0;
+padding: 20px 0;
+position: absolute;
+left: 0;
+top: 100%;
+background-color: #ffffff;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+border-radius: 8px;
+border: 1px solid #ddd;
+display: none;
+}
+
+.dropdown-menu li a{
+    padding: 6px 12px;
+}
+
+#userspace ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+   
+}
+#userspace ul li{
+    text-decoration: none;
+    display: block;
+    float: right;
+    list-style-type: none;
+    padding: 0px;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 90px;
+    
+}
+#userspace ul li a{
+    color: black;
+    padding-right: 6px;
+    text-decoration: none;
+    transition: all ease .5s;
+}
+
+#userspace ul li ul.login-menu li{
+float: none;
+margin-left: 0px;
+}
+
+
+.login-menu{
+    float: none;
+    width: 200px;
+    list-style: none;
+    margin:0;
+    margin-right: 20px;
+    padding: 20px 0;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    display: none;
+    z-index: 3000;
+    }
+    
+    .login-menu li a{
+        padding: 6px 12px;
+        float: none;
+    }
+
+    .login-menu li{
+        float: none;
+        text-align: left;
+    }
+
+    .login-menu li a{
+        font-size: ;
+        font-family: ;
+    }
+
+/* NAVI */
+
+
+/* FOOTER */
+#bgfooter{
+    background-color: black;
+    margin-top: 100px;
+    padding: 0px;
+    padding-bottom: 20px;
+}
+
+#storelocator ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    text-align: left;
+    text-decoration: none;
+}
+
+#storelocator ul li{
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    list-style-type: none;
+    padding: 0px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 10px;
+}
+#storelocator ul li a{
+    font-weight:400;
+    color: white;
+    padding-right: 6px;
+    text-decoration: none;
+    transition: all ease .5s;
+}
+
+#storelocator ul li a p{
+font-weight:300;
+}
+
+
+#infofooter ul{
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    padding: 0px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    text-align: left;
+    text-decoration: none;
+   
+}
+#infofooter ul li{
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    list-style-type: none;
+    padding: 0px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    text-align: left;
+}
+#infofooter ul li a{
+    font-weight:400;
+    color: white;
+    padding-right: 6px;
+    text-decoration: none;
+    transition: all ease .5s;
+}
+
+#infofooter ul li a p{
+font-weight:300;
+}
+
+#allsocialmedia{
+    margin-top: 70px;
+    text-align: center;
+}
+
+#allsocialmedia ul{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    }
+    
+    #allsocialmedia ul li{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    }
+    
+    #allsocialmedia ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-left: 24px;
+    justify-content: center;
+    }
+    #Copyright{
+        color: white;
+    }
+
+    #Sitemap ul{
+        display: inline-block;
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        }
+        
+        #Sitemap ul li{
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        }
+        
+        #Sitemap ul li a{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        justify-content: center;
+        }
+
+        #Language ul{
+            display: block;
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+            }
+            
+            #Language ul li{
+            display: block;
+            vertical-align: middle;
+            text-align: right;
+            }
+            
+            #Language ul li a{
+            text-align: right;
+            text-decoration: none;
+            color: white;
+            }
+
+            #firstbox{
+                padding-top: 20px;
+                margin-top: 20px;
+            }
+
+            .footerxsm ul{
+                display: block;
+                list-style-type: none;
+                padding: 0px;
+                margin: 0px;
+                }
+                
+                .footerxsm ul li{
+                display: block;
+                vertical-align: middle;
+                text-align: left;
+                color: white;
+                }
+                
+                .footerxsm ul li a{
+                text-align: left;
+                text-decoration: none;
+                color: white;
+                }
+
+                .footerxsm ul li a p{
+                margin-bottom: 0px;
+                    }
+
+            .expand ul{
+                display: block;
+                list-style-type: none;
+                padding: 0px;
+                margin: 0px;
+                }
+                
+            .expand ul li{
+                display: block;
+                vertical-align: middle;
+                text-align: right;
+                color: white;
+                }
+                
+            .expand ul li a{
+                text-align: left;
+                text-decoration: none;
+                color: white;
+                }
+
+            .expand ul li a p{
+                margin-bottom: 0px;
+                    }
+            
+            #Copyright2{
+                color: white;
+                text-align: center;
+            }
+            
+            #Sitemap2{
+                margin-top: 40px;
+                text-align: center;
+            }
+            #Sitemap2 ul{
+                display: inline-block;
+                list-style-type: none;
+                padding: 0px;
+                }
+                
+                #Sitemap2 ul li{
+                display: inline-block;
+                vertical-align: middle;
+                text-align: center;
+                }
+                
+                #Sitemap2 ul li a{
+                padding-left: 20px;
+                text-align: center;
+                text-decoration: none;
+                color: white;
+                justify-content: center;
+                }
+
+                .expandedinfo ul{
+                    display: block;
+                    margin-top: 30px;
+                    list-style-type: none;
+
+                    }
+                    
+                .expandedinfo ul li{
+                    display: block;
+                    vertical-align: middle;
+                    text-align: left;
+                    }
+                    
+                .expandedinfo ul li a{
+                    text-align: left;
+                    text-decoration: none;
+                    color: white;
+                    }
+    
+                .expandedinfo ul li a p{
+                    font-weight: 300;
+                    }
+
+                .expandplus{
+                    color: white;
+                } 
+
+                .line-1{
+                    height: 32px;
+                    margin-top: -20px;
+                }
+
+                .line-2, .line-3{
+                    height: 32px;
+                    }
+
+                    
+                .line-4{
+                    height: 32px;
+                    margin-bottom: 40px;
+                    }
+             
+/* FOOTER */
+
+/* SEARCHBOX */
+#Searcharea{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 3100;
+}
+
+#Searcharea2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0 0 0;
+    font-size: 0;
+    z-index: 3000;
+    }
+
+
+
+    #mobilesearchfill{
+        margin-top: 10px;
+        padding-left: 10px;
+        width: 90%;
+        float: left;
+        height: 50px;
+        outline: none;
+        background-color: white;
+        border: none;
+        border-radius: 10px 0px 0px 10px;
+        border-bottom: solid 1pt black;
+        color: black;
+        font-size: 12pt;
+        z-index: 3200;
+    }
+    
+    #mobilesearchbtn{
+    margin-top: 10px;
+    width: 10%;
+    float: left;
+    height: 50px;
+    outline: none;
+    background-color: black;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    border-bottom: solid 1pt black;
+    color: white;
+    font-size: 12pt;
+    }
+
+    #form{
+        
+    }
+/* SEARCHBOX */
+
+/* ADDRESSBAR */
+#bgcontent{
+    height: auto;
+    margin-top: 10px;
+
+}
+#Addressbar{
+    height: 40px;
+}
+#Addressbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+#Addressbar ul li{
+text-decoration: none;
+float: left;
+}
+#Addressbar ul li a{
+text-decoration: none;
+line-height: 35px;
+vertical-align: middle;
+font-size: 13pt;
+}
+
+#categoryadd,#homeadd
+{color: #848484;
+    transition: all ease 0.5s;
+}
+
+#productdes{
+color: black;
+}
+
+#categoryadd,.slash{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+/* ADDRESSBAR */
+
+/* MOBILE NAVI */
+#mobilenaviscreen{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 100%;
+    z-index: 3100;
+    background-color: #ffffff;
+    background-position: right;
+}
+
+.mobilenavi{
+background-color: white;
+text-align: left;
+font-size: 16px;
+color: black;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 0 0 0;
+font-size: 0;
+z-index: 3000;
+margin-top: 0px;
+font-family: titlefont;
+}
+
+.mobilenavi ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.mobilenavi ul li{
+text-decoration: none;
+color: black;
+}
+.mobilenavi ul li a{
+text-decoration: none;
+line-height: 35px;
+vertical-align: middle;
+font-size: 20px;
+color: black;
+}
+
+.mobilenavi ul li a h4{
+color: black;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.mobilenavi ul li a h3{
+    text-align: center;
+    margin-bottom: 30px;
+    }
+
+.mobilenavi ul li a h5{
+margin-left: 30px;
+font-family: medtextfont;
+margin-top: 30px;
+}
+
+.mobilenavi ul li a p{
+font-family: medtextfont;
+font-size: 13px;
+margin-left: 30px;
+}
+
+#ipscreen, #ipadscreen, #explorescreen, #macscreen, #watchscreen, #airpodscreen, #accessscreen, #servicescreen, #Promoscreen{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 100%;
+    z-index: 3100;
+    background-color: #ffffff;
+    color: black;
+    background-position: right;
+}
+
+.mobilenavi{
+background-color: white;
+text-align: left;
+font-size: 16px;
+color: black;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 0 0 0;
+font-size: 0;
+z-index: 3000;
+margin-top: 0px;
+font-family: titlefont;
+}
+
+.mobilenavi ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.mobilenavi ul li{
+text-decoration: none;
+color: black;
+}
+.mobilenavi ul li a{
+text-decoration: none;
+line-height: 35px;
+vertical-align: middle;
+font-size: 20px;
+color: black;
+}
+
+.mobilenavi ul li a h4{
+color: black;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.mobilenavi ul li a h3{
+    text-align: center;
+    margin-bottom: 30px;
+    }
+
+.mobilenavi ul li a h5{
+margin-left: 30px;
+font-family: medtextfont;
+margin-top: 30px;
+}
+
+.mobilenavi ul li a p{
+font-family: medtextfont;
+font-size: 13px;
+margin-left: 30px;
+}
+
+.backtonavi{
+margin-left: 30px;
+margin-top: 10px;
+}
+/* MOBILE NAVI */
+
+
+
+.signin-3line li a i{
+float: left;
+vertical-align: middle;
+margin-left: 30px;
+line-height: 30px;
+}
+
+.signin-3line a{
+font-family: titlefont;
+}
+
+.signin-3line a i::before{
+margin-right: 20px;
+    }
+
+.signin-3line a i::after{
+font-size: large;
+            }    
+    
+/* MOBILE NAVI */
+
+
+/* Media phần dành riêng cho từng phiên bản */
+/* Xl */
+@media (min-width:1200px){
+
+    /* NAVI */
+    #navi ul li{
+   
+    }
+
+    #Addressbar ul li a:hover{
+        color: black;
+        transition: all ease 0.5s;
+        }
+
+    #userspace ul li{
+        margin-left: 24px;
+    }
+
+    #userspace ul li a{
+        font-size: 20px;}
+
+    #navi a:hover{
+        color: #b3b3b3;
+        transition: all ease .5s;
+    }
+
+    #navi ul li:hover ul.dropdown-menu{
+        display: block;
+        transition: all ease 2s;
+        }
+
+    #userspace ul li a:hover{
+        color: #b3b3b3;
+        transition: all ease 0.5s;}
+
+        .dropdown-menu{
+            margin-top:-28px;
+            z-index: 1;
+            }
+
+            .login-menu{
+                margin-top:-40px;
+                margin-right: 20px;
+                }
+                
+                #userspace ul li ul.login-menu li{
+                    float: none;
+                    margin-left: 0px;
+                    }
+
+        .login-menu li:hover{
+            color: #b3b3b3;
+            transition: all ease 0.5s;
+        }
+
+        #userspace ul li:hover ul.login-menu{
+            display: block;
+            transition: all ease 2s;
+        }
+
+        ul li a#signinz{
+            font-family: medtextfont;
+            font-size: 16px;
+            font-weight: 0;
+            width: 100%;
+            display: block;
+        }
+        
+        ul li a#signupz{
+            font-family: medtextfont;
+            font-weight: 0;
+            font-size: 16px;
+            display: block;
+        }
+
+        #menu1:hover #ip-test{
+            color: #b3b3b3;
+        }
+    
+    /* NAVI */
+
+/* FOOTER */
+    #bgfooter{
+        padding-top: 30px;
+    }
+    #infofooter ul{
+    }
+    #infofooter ul li{
+        line-height: 10px;
+    }
+    #infofooter ul li p{
+        line-height: 24px;
+        color: #b3b3b3;
+    }
+    #allsocialmedia ul li a{
+        font-size: 30px;
+    }
+    #Sitemap ul li a{
+        padding-left: 20px;}
+    #storelocator ul li a p:hover{
+        color: #fff;
+    }
+    #infofooter ul li a p:hover{
+        color: #fff;
+    }
+
+    #sustain h5{
+    margin-top: 30px;
+    }
+
+    #storelocator p{
+    line-height: 24px;
+    color: #b3b3b3;
+    }
+
+/* ADDRESSBAR */
+    #categoryadd,.slash{
+        margin-left: 16px;
+    }
+
+    #topbtn:hover{
+        background-color: #848484;
+        transition: all ease 0.5;
+    }
+}
+
+   /* LG */
+@media (min-width:992px) and (max-width:1199px){
+    /* NAVI */
+    #topbtn:hover{
+        background-color: #848484;
+        transition: all ease 0.5;
+    }
+    #bgfooter{
+        padding-top: 30px;
+    }
+    #navi ul li a{
+    padding-left: 10px;
+    padding-right: 10px;    
+        }
+
+        #Addressbar ul li a:hover{
+            color: black;
+            transition: all ease 0.5s;
+            }
+     
+        #navi a:hover{
+            color: #b3b3b3;
+            transition: all ease .5s;
+        }
+    
+        #navi ul li:hover ul.dropdown-menu{
+            display: block;
+            transition: all ease 2s;
+            }
+    
+        #userspace ul li a:hover{
+            color: #b3b3b3;
+            transition: all ease 0.5s;}
+    
+            .dropdown-menu{
+                margin-top:-28px;
+                }
+            
+
+    #userspace ul li{
+        margin-left: 16px;
+        }
+    
+    #userspace ul li a{
+        font-size: 20px;}
+
+
+        #navi a:hover{
+            color: #b3b3b3;
+            transition: all ease .5s;
+        }
+    
+        #userspace ul li a:hover{
+            color: #b3b3b3;
+            transition: all ease .5s;
+        }
+
+            
+        .login-menu{
+            margin-top:-40px;
+            width: 150px;
+            }
+
+            #userspace ul li ul.login-menu li{
+                float: none;
+                margin-left: 0px;
+                }
+
+                #userspace ul li:hover ul.login-menu{
+                    display: block;
+                    transition: all ease 2s;
+                }
+
+                ul li a#signinz{
+                    font-family: medtextfont;
+                    font-size: 16px;
+                    font-weight: 0;
+                    width: 100%;
+                    display: block;
+                }
+                
+                ul li a#signupz{
+                    font-family: medtextfont;
+                    font-weight: 0;
+                    font-size: 16px;
+                    display: block;
+                }
+
+                #storelocator ul li a p:hover{
+                    color: #fff;
+                }
+                #infofooter ul li a p:hover{
+                    color: #fff;
+                }
+
+                #infofooter ul li p{
+                    line-height: 24px;
+                    color: #b3b3b3;
+                }
+            
+                #sustain h5{
+                margin-top: 36px;
+                }
+            
+                #storelocator p{
+                line-height: 24px;
+                color: #b3b3b3;
+                margin-bottom: 0px;
+                }
+        
+
+            /* NAVI */
+
+            #infofooter ul li p{
+            margin-bottom: 0px;
+                line-height: 20px;
+            }
+
+            #infofooter ul li{
+                line-height: 10px;
+            }
+            #infofooter ul li p{
+                line-height: 24px;
+            }
+            #storelocator a{
+                padding-top: 4px;
+                margin-bottom: 0px;
+            }
+
+        #allsocialmedia ul li {
+            font-size: 30px;
+            margin-top: 10px;
+        }
+
+        #Sitemap ul li a{
+            padding-left: 10px;}
+        
+}
+   /* MD */
+   @media (min-width:768px) and (max-width:991px){
+    #userspace ul li{
+        margin-left: 16px;
+        }
+    
+    #userspace ul li a{
+            font-size: 20px;}
+
+    #allsocialmedia ul li a{
+            padding-left: 10px;
+            margin-left: 0px;
+            font-size: 24px;
+            }
+
+            #bgfooter{
+                padding-top: 20px;
+            }
+   }
+   
+   /* SM */
+   @media (min-width: 576px) and (max-width: 767px){
+    #userspace ul li a{
+        font-size: 16px;}
+
+    #userspace ul li{
+        margin-left: 16px;
+        }
+        #allsocialmedia ul li a{
+            padding-left: 10px;
+            margin-left: 0px;
+            font-size: 24px;
+            }
+            #bgfooter{
+                padding-top: 20px;
+            }
+    }
+   /* XS */
+   @media (max-width: 575px){
+    #bgfooter{
+        margin-top: 0px;
+    }
+    #userspace ul li a{
+        font-size: 16px;}
+        
+    #userspace ul li{
+        margin-left: 16px;
+        }
+        #allsocialmedia ul li a{
+            padding-left: 16px;
+            margin-left: 0px;
+            font-size: 20px;
+            }
+            #Sitemap2 ul li a{
+                padding-left: 10px;}
+
+                #bgfooter{
+                    margin-top: 30px;
+                    padding-top: 20px;
+                }
+   }

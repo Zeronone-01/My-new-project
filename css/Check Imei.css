@@ -1,0 +1,223 @@
+@charset "url-8";
+/*Css danh cho trang imei*/
+/*Imei Content*/
+
+.textinfo h6{
+    
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.textinfo ol{
+    font-family: textfont;
+    padding-left:15px;
+}
+.textinfo ul{
+    font-family: textfont;
+    padding-left: 15px;
+}
+.textinfo p{
+    font-family: textfont;
+    padding-left: 15px;
+}
+#img1{
+    background-image: url(../imgs/Image/Imei/Check-IMEI_1000-removebg-preview\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    height: 500px;
+}
+#contentimg1{
+    margin-top: 200px;
+    text-align: center ;
+
+}
+#contentimg1 p{
+    font-size: 60px;
+    font-weight: 600;
+}
+    #img2{
+        display: block;
+
+    }
+#img3{
+ display: block;
+}
+#img4{
+    height:550px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: 20px   ;
+}
+#img5{
+    background-repeat: no-repeat;
+    background-position: center top ;
+    margin-bottom: 20px;
+}
+#img6{
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#img7{
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-bottom: 20px;
+}
+#img8{
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: 10px;
+
+}
+
+
+
+
+/* Media phần dành riêng cho từng phiên bản */
+/* Xl */
+@media (min-width:1200px){
+    #contentimg1{
+        margin-top: 200px;
+        text-align: center ;
+    
+    }
+    #contentimg1 p{
+        font-size: 60px;
+        font-weight: 600;
+    }
+}
+
+
+   /* LG */
+@media (min-width:992px) and (max-width:1199px){
+    #contentimg1{
+        margin-top: 200px;
+        text-align: center ;
+    
+    }
+    #contentimg1 p{
+        font-size: 55px;
+        font-weight: 600;
+    }
+   
+ }         
+   /* MD */
+   @media (min-width:768px) and (max-width:991px){
+    #contentimg1{
+        margin-top: 120px;
+        text-align: center ;
+    
+    } 
+    #contentimg1 p{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    #img2{
+        display: block;
+        height: 130px;
+        width: 130px;
+
+    }
+    #img3{
+        display: block;
+        height: 360px;
+        width: 180px;
+       }
+    #img4{
+        display: block;
+        height: 320px;
+        width: 320px;
+    } 
+    #img1{
+        background-image: url(../imgs/Image/Imei/Check-IMEI_1000-removebg-preview\ 1.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: contain;
+        height: 300px;
+    }      
+    }
+   
+   /* SM */
+   @media (min-width: 576px) and (max-width: 767px){
+    #contentimg1{
+        margin-top: 80px;
+        text-align: center ;
+    
+    } 
+    #contentimg1 p{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    #img2{
+        display: block;
+        height: 90px;
+        width: 90px;
+    }
+    #img3{
+        display: block;
+        height: 270px;
+        width: 130px;
+       }
+    #img4{
+        display: block;
+        height: 240px;
+        width: 240px;
+    }
+    #img1{
+        background-image: url(../IMAGE/Imei/Check-IMEI_1000-removebg-preview\ 1.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: contain;
+        height: 220px;
+    }
+    }
+   /* XS */
+   @media (max-width: 575px){
+        .textinfo h6{
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+        .textinfo ol{
+            padding-left:15px;
+
+        }
+        .textinfo ul{
+            padding-left: 15px;
+
+        }
+
+        #img2{
+            display: block;
+            height: 70px;
+            width: 70px;
+    
+        }
+        #img3{
+            margin-bottom: 15px;
+            display: block;
+            height: 200px;
+            width: 100px;
+           }
+        #img4{
+            display: block;
+            height: 200px;
+            width: 200px;
+        }
+        #contentimg1{
+            margin-top: 65px;
+            text-align: center ;
+        
+        } 
+        #contentimg1 p{
+            font-size: 20px;
+            font-weight: 600;
+    }
+    #img1{
+        background-image: url(../IMAGE/Imei/Check-IMEI_1000-removebg-preview\ 1.png);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: contain;
+        height: 170px;
+    }
+   }

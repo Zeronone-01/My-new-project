@@ -1,0 +1,417 @@
+/* embed font */
+@font-face {
+  font-family: decor;
+  src: url(../font/SFProDisplay-Bold.eot),
+  url(../font/SFProDisplay-Bold.ttf),
+  url(../font/SFProDisplay-Bold.woff);
+}
+
+@font-face {
+  font-family: regular;
+  src: url(../font/SFProDisplay-Regular.eot),
+  url(../font/SFProDisplay-Regular.ttf),
+  url(../font/SFProDisplay-Regular.woff);
+}
+@font-face {
+  font-family: thinfont;
+  src: url(../font/SFProDisplay-Thin.eot),
+  url(../font/SFProDisplay-Thin.ttf),
+  url(../font/SFProDisplay-Thin.woff);
+ 
+}
+#lienhe{
+  margin-top: 20px;
+}
+#textform h4{
+  color: #000000;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#formsign ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+#formsign ul li{
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: center;
+}
+#formsign ul li input{
+  outline: none;
+  border: none;
+  background-color: rgba(230, 241, 255, 0.8);
+  color: black;
+  padding: 10px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+body{font-family: regular;}
+#bannerdetail{
+    background-image: url("../img/bannertragop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+#bannerdetail h1{
+    text-align: center;
+    text-shadow: 0px 0px 10px black;
+}
+
+/* BANNER 1 */
+#banner1, .carousel-item{
+    padding: 0px;
+}
+
+#recomproduct {
+  text-decoration: underline;
+  margin-top: 20px;
+}
+.productbox ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+.productbox ul li{
+  display: block;
+  float: left;
+}
+.productboxcard ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+.productboxcard ul li{
+  display: block;
+  float: left;
+}
+.iconpluscart{
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  transition: all ease .5s;
+  float: right;
+}
+
+  /* Productbox */
+  #submitbtn input{
+    width: 140px!important;
+    text-align: center;
+    color: rgb(255, 255, 255)!important;
+    background-color: black!important;
+    border: solid 1pt rgb(0, 0, 0)!important;
+    margin-top: 10px;
+    border-radius: 20px 20px!important;
+    height: 40px!important;
+    transition: all ease 0.5s;
+}
+
+  /* Filter */
+/*border filter*/
+.bgcolorfilter{
+  background-color: #010101!important;
+  color: white!important;
+  border: solid 1pt #000000!important;
+}
+#triggermodel, #triggerprice, #triggerartist{
+  border: solid 1pt black;
+  padding: 10px 5px;
+  height: 40px;
+  width: auto;
+  display: inline-block;
+}
+
+#modelfilterbox, #pricefilterbox, #artistfilterbox{
+  border: solid 1pt black;
+  padding: 2px 2px;
+  height: auto;
+  width: inherit;
+}
+
+.clearf{clear: both;}
+#pricefilter a, #artistfilter a, #modelfilter a{
+  display: block;
+}
+#triggerprice h6, #triggerartist h6, #triggermodel h6{
+  float: inline-start;
+}
+#triggerprice i, #triggerartist i, #triggermodel i{
+  float: right;
+}
+
+#artistfilter, #modelfilter, #pricefilter{
+  margin-bottom: 10px;
+}
+input{accent-color: #010101 }
+input:focus{
+  border-color: #000000;
+  box-shadow: none;
+  border: solid 0.5pt rgb(0, 0, 0);
+}
+.buttonapply{
+  display: flex; 
+  justify-content: center;
+}
+#submitbtn{
+  margin-bottom: 20px;
+  display: block;
+  height: 40px;
+  width: 140px;
+  background-color: #000000;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none; 
+  border-radius: 5px;
+  transition: all ease .5s; 
+}
+#submitbtn:active{
+  background-color: white;
+  border: solid 1.5px #000000;
+  color: #000000;
+}
+
+
+.productbox{
+  height: 300px;
+  margin-bottom: 30px;
+  text-align: center;
+  justify-content: center;
+  
+}
+.productboxcard{
+  height: 200px;
+  margin-bottom: 30px;
+  text-align: center;
+  justify-content: center;
+  
+}
+ h4{
+  font: decor;
+  text-decoration: underline;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.addressbar{
+  height: 40px;
+  background-color: #D9d9d9;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 15px;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  content: "|\00a0";
+}
+
+ul.breadcrumb li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+#muangaybtn2 {
+  display: block;
+  height: 40px;
+  width: 140px;
+  border: solid 1.5pt #060606;
+  background-color:black;
+  text-align: center;
+  color: #ffffff;
+  line-height: 40px;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: all ease .5s;
+
+}
+.productboxcard a{
+  display: contents;
+  position: center;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  
+}
+
+.seemore {
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+a.muangaybtn2 {
+  display: block;
+  height: 40px;
+  width: 140px;
+  background-color:black;
+  text-align: center;
+  color: #ffffff;
+  line-height: 40px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all ease .5s;
+}
+
+/* Screen XL */
+@media (min-width: 1200px) {
+  #triggermodel, #triggerprice, #triggerartist{
+    padding: 10px 10px;
+  }
+
+  #muangaybtn2:hover {
+    background-color: #808080;
+    text-decoration: none;
+    transition: all ease .5s;
+  }
+
+  #submitbtn input:hover{
+    transition: all ease 0.5s;
+    background-color: rgb(255, 255, 255)!important;
+    border: solid 1pt rgb(0, 0, 0)!important;
+    color: #000000!important;
+}
+
+a.muangaybtn2:hover {
+  background-color: #808080;
+  text-decoration: none;
+  color: white;
+  transition: all ease .5s;
+}
+  
+  #modelfilterbox, #pricefilterbox, #artistfilterbox{
+    padding: 10px 20px;
+  }
+  
+    #banner1{margin-bottom: 50px;}
+    #productslide{margin-bottom: 50px;}
+    
+#pricefilterbox label:hover{
+  color: #000000;
+  text-decoration: none;
+}
+#artistfilter label:hover{
+  color: #000000;
+  text-decoration: none;
+}
+.muangaybtn2{width: 160px!important;}
+
+#submitbtn:hover{
+  background-color: #808080;
+  color: white;
+}
+
+.iconpluscart{
+  font-size: 22pt;
+  margin-right: 24pt;
+  }
+  #formsign ul li input{
+    height: 40px;
+    width: 540px;
+}
+}
+/* Screen LG */
+@media (min-width: 992px) and (max-width: 1199px){
+  #triggermodel, #triggerprice, #triggerartist{
+    padding: 10px 10px;
+  }
+
+  #muangaybtn2:hover {
+    background-color: #808080;
+    text-decoration: none;
+    transition: all ease .5s;
+  }
+
+  #submitbtn input:hover{
+    transition: all ease 0.5s;
+    background-color: rgb(255, 255, 255)!important;
+    border: solid 1pt rgb(0, 0, 0)!important;
+    color: #000000!important;
+}
+
+  a.muangaybtn2:hover {
+    background-color: #808080;
+    text-decoration: none;
+    color: white;
+    transition: all ease .5s;
+  }
+
+  #submitbtn:hover{
+    background-color: #808080;
+    color: white;
+  }
+  
+  #modelfilterbox, #pricefilterbox, #artistfilterbox{
+    padding: 10px 20px;
+  }
+  #banner1{margin-bottom: 50px;}
+    #productslide{margin-bottom: 50px;}
+    .iconpluscart{
+      font-size: 22pt;
+      margin-right: 10px;
+      } 
+      #formsign ul li input{
+        height: 40px;
+        width: 530px;}
+}
+
+
+/* Screen MD */
+@media (min-width: 768px) and (max-width: 991px) {
+  #triggermodel, #triggerprice, #triggerartist{
+    padding: 10px 10px;
+  }
+  
+  #modelfilterbox, #pricefilterbox, #artistfilterbox{
+    padding: 10px 20px;
+  }
+    #banner1{margin-bottom: 40px;}
+    #productslide{margin-bottom: 40px;}
+    .iconpluscart{
+      font-size: 22pt;
+      margin-right: 10px;
+      }
+      #formsign ul li input{
+        height: 35px;
+        width: 450px;
+    }
+}
+
+/* Screen SM */
+@media (min-width: 576px) and (max-width: 767px) {
+    #banner1{margin-bottom: 40px;}
+    .iconpluscart{
+      font-size: 22pt;
+      margin-right: 10px;
+      }  
+      #formsign ul li input{
+        height: 35px;
+        width: 420px;
+    }
+}
+
+/* Screen XS */
+@media (max-width: 575px){
+    #banner1{margin-bottom: 30px;}
+    .iconpluscart{
+      font-size: 22pt;
+      margin-right: 10px;
+      }
+      #formsign ul li input{
+        height: 30px;
+        width: 295px;
+    }
+}

@@ -1,0 +1,361 @@
+/* banner */
+.banner{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+}
+
+/* categories */
+.category, .program-rules, .reference-products, .evaluation{
+    max-width: 1110px;
+}
+.category .list-categories .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.category .list-categories .image{
+    width: 100%;
+    overflow: hidden;
+}
+.category .list-categories .image img{
+    width: 100%;
+}
+
+/* tag */
+.tag {
+    background-color: #8D7575;
+    height: 2.5rem;
+}
+.tag .container-fluid{
+    display: flex;
+    align-items: center;
+    max-width: 1110px;
+    height: 2.5rem;
+}
+.tag p{
+    color: white;
+    font-weight: 600;
+}
+
+/* program rules */
+.program-rules h4, .reference-products h4, .evaluation h4{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.program-rules .dynamic-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "a b b"
+    "a b b"
+    "a c c"
+}
+.program-rules .dynamic-grid .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: a;
+}
+.program-rules .dynamic-grid .image img{
+    width: 90%;
+}
+.program-rules .dynamic-grid .content{
+    grid-area: b;
+}
+.program-rules .dynamic-grid .content h5{
+    font-weight: 700;
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+}
+.program-rules .dynamic-grid .content p{
+    font-size: 1.4rem;
+}
+.program-rules .dynamic-grid .button{
+    position: relative;
+    grid-area: c;
+}
+.program-rules .dynamic-grid .button button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    padding: 7px 80px;
+    border-radius: 10px;
+    border: black 3px solid ;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+/* reference products */
+#reference-products h4{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.reference-products .row .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reference-products .row .image{
+    width: 100%;
+    overflow: hidden;
+}
+.reference-products .row .image img{
+    width: 100%;
+}
+.reference-products .note{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.reference-products .note span{
+    padding: 10px;
+    background-color: #2D75C7;
+    color: white;
+    border-radius: 50px;
+}
+.reference-products .btn-seemore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.reference-products .btn-seemore button{
+    background-color: transparent;
+    padding: 7px 80px;
+    border-radius: 10px;
+    border: black 3px solid ;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+/* evaluation */
+.evaluation form{
+    border: black 1px solid;
+    border-radius: 1rem;
+}
+.evaluation form input, textarea{
+    padding: 10px 15px;
+    border: black 1px solid;
+    border-radius: 1rem;
+}
+.evaluation form .upload{
+    height: max-content;
+    padding: 10px 15px;
+    border: black 1px solid;
+    border-radius: 1rem;
+}
+.evaluation form .upload .btn-upload{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.evaluation form .upload button{
+    background-color: transparent;
+    padding: 7px 80px;
+    border-radius: 10px;
+    border: black 1px solid ;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.evaluation form .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.evaluation form .submit input{ 
+    background-color: transparent;
+    padding: 7px 80px;
+    border-radius: 10px;
+    border: black 2px solid ;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.submit2 input{ 
+    background-color: transparent;
+    padding: 7px 80px;
+    border-radius: 10px;
+    border: black 2px solid ;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+/* popup */
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.popup .notification{
+    position: relative;
+    max-width: 65%;
+    height: 90%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: #D9D9D9;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.popup .notification .btn-closer{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: transparent;
+    position: absolute;
+    top: 0.4rem;
+    right: 1rem;
+    border-radius: 1rem;
+    border: none;
+}
+.popup .notification .content{
+    position: absolute;
+    font-weight: 600;
+    font-size: 1.1rem;
+    height: 90%;
+    padding: 3rem;
+    padding-top: 0;
+    margin-top: 3rem;
+    overflow-y: scroll;
+}
+.popup .notification .content::-webkit-scrollbar{
+    display: none;
+}
+
+#something{
+    color: #848484 !important;
+    transition: all ease 0.5s;
+    }
+
+    #something:hover{
+        color: black !important;
+        transition: all ease 0.5s;
+    }
+#productdes{
+    color:black !important;
+}
+
+/* Responsive */
+@media screen and (min-width: 1200px) {
+    #Addressbar ul li a:hover{
+        color: black;
+        transition: all ease 0.5s;
+        }
+
+        #Addressbar ul li a{
+            color: #848484;
+            transition: all ease 0.5s;
+            }
+
+#login-menu1{
+    left: 82% !important;
+    top: 11% !important;
+}
+}
+
+@media (min-width:992px) and (max-width:1199px){
+    .program-rules .dynamic-grid{
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: 1fr 1fr 5rem;
+        grid-template-areas: 
+        "a b"
+        "a b"
+        "c c"
+    }
+
+    .login-menu{
+        left: 81% !important;
+        top: 11% !important;
+    }
+
+    #Addressbar ul li a:hover{
+        color: black;
+        transition: all ease 0.5s;
+        }
+
+        #Addressbar ul li a{
+            color: #848484;
+            transition: all ease 0.5s;
+            }
+
+        #something:{
+            color: #848484;
+        }  
+        #something:hover{
+            color: black;
+            transition: all ease 0.5s;
+        }
+
+    .program-rules .dynamic-grid .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .program-rules .dynamic-grid .button button{
+        position: relative;
+    }
+
+    .evaluation form {
+        padding-bottom: 1rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .category .list-categories h4{
+        font-size: 100%;
+    }
+    .evaluation form .upload{
+        height: 100%;
+    }
+
+    .evaluation form .upload .btn-upload{
+       justify-content: center;
+       align-items: center;
+    }
+    .evaluation form {
+        padding-bottom: 3rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .tag .container-fluid{
+        justify-content: center;
+    }
+    .program-rules .dynamic-grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr auto 4rem;
+        grid-template-areas: 
+        "a"
+        "b"
+        "c"
+    } 
+    .program-rules .dynamic-grid .image img{
+        width: 70%;
+        margin-bottom: 1.5rem;
+    }
+    .evaluation form .upload{
+        height: fit-content;
+    }
+    .evaluation form {
+        padding-bottom: 0;
+    }
+}
+@media (max-width: 575px){
+    .tag p{
+        font-size: 80%;
+    }
+}
+
+
+

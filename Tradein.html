@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade-In</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <!-- Lib -->
+    <link rel="stylesheet" href="./font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Css Custom -->
+     <link rel="stylesheet" href="css/Tradein.css">
+     <style>
+        h1,h2,h3,h4,h5{
+            font-family: "titlefont", sans-serif;
+        }
+        p{
+            font-family: "textfont", sans-serif;
+        }
+     </style>
+</head>
+<body>
+<!-- Black SCREEN -->
+<div class="container-fluid" id="blackscreen">
+</div>
+
+<!-- Black SCREEN 2 -->
+<div class="container-fluid" id="blackscreen2">
+</div>
+
+<!-- Black SCREEN 2 -->
+<div class="container-fluid" id="blackscreen3">
+</div>
+
+<!-- TOPBTN -->
+<div class="container-fluid">
+<div class="row">
+  <div class="col-12">
+    <a name="toppage"></a>
+    <a href="#toppage" id="topbtn"><i class="fa-light fa-arrow-up"></i></a>
+  </div>
+</div>
+</div>
+
+
+<!--  SEARCHBOX -->
+<div class="container-fluid" id="Searchareatest">
+<div class="container"id="Searcharea">
+<div class="row">
+<div class="col-xl-12">
+<form action="">
+<input type="text" id="mobilesearchfill" placeholder="Search here..">
+<button id="mobilesearchbtn"><i class="fa-regular fa-magnifying-glass"></i></button>
+</form>
+</div>
+</div>
+</div>
+</div>
+<!--  SEARCHBOX -->
+
+<!--  MOBILE NAVI -->
+<div class="container-fluid d-lg-none"id="mobilenaviscreen">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 mobilenavi">
+              <ul class="Brandname">                                  
+                  <li><a href=""><h3>PKAAK</h3></a></li>
+                  <li>
+                      <ul class="signin-3line">
+                      <li><a href="./Login.html" id=""><i class="fa-regular fa-user"></i></a>
+                      </li>
+                      <li><a href="./Login.html"><h5>Sign in / Sign up</h5></a></li>
+                      </ul>                  
+                      </li>
+                  <li><a href="./Exchange Points.html"><p>Earn up to 5% cashback in points</p></a></li>
+                  </ul>
+  
+  
+              <hr style= "width: 100%; background-color: black; align: left">
+              <ul>
+                  <li><a id="triggeriphone"><h5>iPhone</h5></a></li>
+                  <li><a id="triggeripad"><h5>iPad</h5></a></li>
+                  <li><a id="triggermac"><h5>Mac</h5></a></li>
+                  <li><a id="triggerwatch"><h5>Watch</h5></a></li>
+                  <li><a id="triggerair"><h5>AirPods</h5></a></li>
+                  <li><a id="triggeraccess"><h5>Accessories</h5></a></li>
+                  <li><a id="triggerservice"><h5>Service</h5></a></li>
+                  <li><a id="triggerpromo"><h5>Promotion</h5></a></li>
+                  <li><a id="triggerexplore"><h5>Explore</h5></a></li>
+               </ul>
+               </div>
+               </div>
+      </div>
+  
+  </div>
+  <!--  MOBILE NAVI -->
+
+  <!--  iPhone NAVI -->
+<div class="container-fluid d-lg-none"id="ipscreen">
+  <div class="container">
+      <div class="row">
+        <div class="col-12 mobilenavi">
+          <ul><li><a id="backtonavi"><i class="fa-regular fa-arrow-left"></i></a></li></ul>
+        </div>
+          <div class="col-12 mobilenavi">
+              <ul>     
+                <li><a class="backtonavi"><i class="fa-regular fa-arrow-left"></i></a></li>                              
+                  <li><a href="./product.html"><h5>iPhone 15 Series</h5></a></li>                  
+                  <li><a href="./product.html"><h5>iPhone 14 Series</h5></a></li>
+                  <li><a href="./product.html"><h5>iPhone 13 Series</h5></a></li>
+                  <li><a href="./product.html"><h5>iPhone SE Series</h5></a></li>
+                  <li><a href="./product.html"><h5>iPhone Refubished</h5></a></li>
+                  <li><a href="./product.html"><h5>View All</h5></a></li>
+               </ul>
+               </div>
+               </div>
+      </div>
+  
+  </div>
+  <!--  iPhone NAVI -->
+
+    <!--  IPAD NAVI -->
+<div class="container-fluid d-lg-none"id="ipadscreen">
+  <div class="container">
+      <div class="row">
+        <div class="col-12 mobilenavi">
+          <ul><li><a id="backtonavi"><i class="fa-regular fa-arrow-left"></i></a></li></ul>
+        </div>
+          <div class="col-12 mobilenavi">
+              <ul>         
+                <li><a class="backtonavi"><i class="fa-regular fa-arrow-left"></i></a></li>                          
+                  <li><a href="./product.html"><h5>iPad Pro Series</h5></a></li>                  
+                  <li><a href="./product.html"><h5>iPad Air Series</h5></a></li>
+                  <li><a href="./product.html"><h5>iPad Series</h5></a></li>
+                  <li><a href="./product.html"><h5>iPad Mini Series</h5></a></li>
+                  <li><a href="./product.html"><h5>Apple Pencil</h5></a></li>
+                  <li><a href="./product.html"><h5>iPad Refubished</h5></a></li>
+                  <li><a href="./product.html"><h5>View All</h5></a></li>
+               </ul>
+               </div>
+               </div>
+      </div>
+  
+  </div>
+  <!--   IPAD NAVI -->
+
+      <!--  MAC NAVI -->
+<div class="container-fluid d-lg-none"id="macscreen">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 mobilenavi">
+              <ul>          
+                <li><a class="backtonavi"><i class="fa-regular fa-arrow-left"></i></a></li>                         
+                  <li><a href="./product.html"><h5>MacBook Air Series</h5></a></li>                  
+                  <li><a href="./product.html"><h5>MacBook Pro Series</h5></a></li>
+                  <li><a href="./product.html"><h5>MacBook Air Refubished</h5></a></li>
+                  <li><a href="./product.html"><h5>View All</h5></a></li>
+               </ul>
+               </div>
+               </div>
+      </div>
+  
+  </div>
+  <!--   MAc NAVI -->
+
+        <!-- Watch NAVI -->
+<div class="container-fluid d-lg-none"id="watchscreen">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 mobilenavi">
+              <ul>       
+                <li><a class="backtonavi"><i class="fa-regular fa-arrow-left"></i></a></li>                            
+                  <li><a href="./product.html"><h5>Apple Watch Ultra Series</h5></a></li>                  
+                  <li><a href="./product.html"><h5>Apple Watch Series 9</h5></a></li>
+                  <li><a href="./product.html"><h5>Apple Watch SE</h5></a></li>
+                  <li><a href="./product.html"><h5>Other</h5></a></li>
+                  <li><a href="./product.html"><h5>View All</h5></a></li>
+               </ul>
+               </div>
+               </div>
+      </div>
+  
+  </div>
+  <!--   Watch NAVI -->
+  
+        <!--  air NAVI -->
+<div class="container-fluid d-lg-none"id="airpodscreen">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 mobilenavi">
+              <ul>           
+                <li><a class="backtonavi"><i class="fa-regular fa-arrow-left"></i></a></li>                        
+                  <li><a href="./product.html"><h5>AirPods</h5></a></li>                  
+                  <li><a href="./product.html"><h5>AirPods Pro</h5></a></li>
+                  <li><a href="./product.html"><h5>AirPods Max</h5></a></li>
+                  <li><a href="./product.html"><h5>AirPods Cases</h5></a></li>
+                  <li><a href="./product.html"><h5>View All</h5></a></li>
+               </ul>
+               </div>
+               </div>
+      </div>
+  </div>
+  <!--   air NAVI -->
+
+        <!--  Access NAVI -->
+        <div class="container-fluid d-lg-none"id="accessscreen">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12 mobilenavi">
+                      <ul>       
+                        <li><a class="backtonavi"><i class="fa-regular fa-arrow-left"></i></a></li>                            
+                          <li><a href="./Accessories.html"><h5>Charging Accessories</h5></a></li>                  
+                          <li><a href="./Accessories.html"><h5>Camera Support Accessories</h5></a></li>
+                          <li><a href="./Accessories.html"><h5>Cases</h5></a></li>
+                          <li><a href="./product.html"><h5>View All</h5></a></li>
+                       </ul>
+                       </div>
+                       </div>
+              </div>
+          
+          </div>
+          <!--   Access NAVI -->
+
+                  <!--  Services NAVI -->
+        <div class="container-fluid d-lg-none"id="servicescreen">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12 mobilenavi">
+                      <ul>               
+                        <li><a class="backtonavi"><i class="fa-regular fa-arrow-left"></i></a></li>                    
+                          <li><a href="./Repair.html"><h5>Repair Services</h5></a></li>                  
+                          <li><a href=""><h5>Installation Services</h5></a></li>
+                          <li><a href=""><h5>Engraving Services</h5></a></li>
+                          <li><a href="./Tradein.html"><h5>Trade-in</h5></a></li>
+                          <li><a href="./Check Imei.html"><h5>Check IMEI</h5></a></li>
+                          <li><a href="./Custom Case.html"><h5>Custom Cases</h5></a></li>
+                          <li><a href=""><h5>Warranty</h5></a></li>
+                       </ul>
+                       </div>
+                       </div>
+              </div>
+          
+          </div>
+          <!--   Access NAVI -->
+
+                  <!--  Promotion NAVI -->
+        <div class="container-fluid d-lg-none"id="Promoscreen">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12 mobilenavi">
+                      <ul>                
+                        <li><a class="backtonavi"><i class="fa-regular fa-arrow-left"></i></a></li>                   
+                          <li><a href="./Exchange Points.html"><h5>Exchange Points</h5></a></li>                  
+                          <li><a href=""><h5>Flash Sale</h5></a></li>
+                          <li><a href=""><h5>Gift Away</h5></a></li>
+                       </ul>
+                       </div>
+                       </div>
+              </div>
+          
+          </div>
+          <!--   Promotion NAVI -->
+
+                            <!--  Explore NAVI -->
+        <div class="container-fluid d-lg-none"id="explorescreen">
+          <div class="container">
+              <div class="row">
+                <div class="col-12 mobilenavi">
+                  <ul></ul>
+                </div>
+                  <div class="col-12 mobilenavi">
+                      <ul>          
+                          <li><a class="backtonavi"><i class="fa-regular fa-arrow-left"></i></a></li>                        
+                          <li><a href="./About us.html"><h5>About PKAAK</h5></a></li>                  
+                          <li><a href="./Contact Us.html"><h5>Our Stores</h5></a></li>
+                          <li><a href="./news.html"><h5>News</h5></a></li>
+                          <li><a href="./Installment.html"><h5>Financing & Credit</h5></a></li>
+                          <li><a href=""><h5>Payment Guide</h5></a></li>
+                          <li><a href="./Guarantee Policy.html"><h5>Guarantee Policy</h5></a></li>
+                          <li><a href=""><h5>Privacy Policy</h5></a></li>
+                       </ul>
+                       </div>
+                       </div>
+              </div>
+          
+          </div>
+          <!--   Explore NAVI -->
+
+
+<!-- HEADER -->
+<div class="container-fluid d-none d-lg-block" id="bgheader">
+    <div class="container" id="Header1">
+        <div class="row">
+  
+    <!--Logo-->
+        <div class="col-xl-1 col-lg-1" id="logoinheader">
+            <ul>
+                <li><a href="./Home.html"><img src="./imgs/logo/logo.png" alt="" class="img-fluid"></a></li>
+              </ul>
+              </div>  <!--Logo-->
+            
+        <!-- Navi -->
+        <div class="col-xl-9 col-lg-9" id="navi">
+            <ul>                                  
+                <li>
+                    <a href="./product.html" class="dropdown-link" id="ip-test">iPhone</a>
+                    <ul class="dropdown-menu" id="menu1">
+                        <li><a href="./product.html" class="line-1" >iPhone 15 series</a></li>                 
+                        <br>
+                        <li><a href="./product.html" class="line-3" style="padding-top: 8px;">iPhone 14 series</a></li>
+                        <br>
+                        <li><a href="./product.html" class="line-3" style="padding-top: 8px;">iPhone 13 series</a></li>
+                        <br>
+                        <li><a href="./product.html" class="line-2" style="padding-top: 8px;">iPhone SE series</a></li>
+                        <br>
+                        <li><a href="./product.html" class="line-4" style="padding-top: 8px;">iPhone Refubished</a></li>
+                </ul>
+            </li>
+                <li><a href="./product.html" id="ipad-test">iPad</a>
+                    <ul class="dropdown-menu" id="menu2">
+                        <li><a href="./product.html" class="line-1">iPad Pro series</a></li>
+                        <br>
+                        <li><a href="./product.html" class="line-2" style="padding-top: 8px;">iPad Air series</a></li>
+                        <br>
+                        <li><a href="./product.html" class="line-2" style="padding-top: 8px;">iPad series</a></li>
+                        <br>
+                        <li><a href="./product.html" class="line-2" style="padding-top: 8px;">iPad Mini series</a></li>
+                        <br>
+                        <li><a href="./product.html" class="line-2" style="padding-top: 8px;">Apple Pencil</a></li>
+                        <br>
+                        <li><a href="./product.html" class="line-4" style="padding-top: 8px;">iPad Refubished</a></li>
+                </ul>
+                </li>
+                <li><a href="./product.html" id="mac-test">Mac</a>
+                    <ul class="dropdown-menu" id="menu3">
+                      <li><a href="./product.html" class="line-1">MacBook Air series</a></li>
+                      <br>
+                      <li><a href="./product.html" class="line-2" style="padding-top: 8px;">MacBook Pro series</a></li>
+                      <br>
+                      <li><a href="./product.html" class="line-4" style="padding-top: 8px;">MacBook Refubished</a></li>
+                </ul>
+                </li>
+                <li><a href="./product.html" id="watch-test">Watch</a>
+                    <ul class="dropdown-menu" id="menu4">
+                      <li><a href="./product.html" class="line-1">Apple Watch Ultra series</a></li>
+                      <br>
+                      <li><a href="./product.html" class="line-2" style="padding-top: 8px;">Apple Watch Series 9</a></li>
+                      <br>
+                      <li><a href="./product.html" class="line-3" style="padding-top: 8px;">Apple Watch SE</a></li>
+                      <br>
+                      <li><a href="./product.html" class="line-4" style="padding-top: 8px;">Other</a></li>
+                </ul>
+                </li>
+                <li><a href="./product.html" id="air-test">AirPods</a>
+                    <ul class="dropdown-menu" id="menu5">
+                      <li><a href="./product.html" class="line-1">AirPods</a></li>
+                      <br>
+                      <li><a href="./product.html" class="line-2" style="padding-top: 8px;">AirPods Pro</a></li>
+                      <br>
+                      <li><a href="./product.html" class="line-2" style="padding-top: 8px;">AirPods Max</a></li>
+                      <br>
+                      <li><a href="./product.html" class="line-4" style="padding-top: 8px;">Airpods Cases</a></li>
+                </ul>
+                </li>
+                <li><a href="./Accessories.html" id="access-test">Accessories</a>
+                    <ul class="dropdown-menu" id="menu6">
+                        <li><a href="./Accessories.html" class="line-1">Charging Accessories</a></li>
+                        <br>
+                        <li><a href="./Accessories.html" class="line-2">Camera Support Accessories</a></li>
+                        <br>
+                        <li><a href="./Accessories.html" class="line-4">Cases</a></li>
+                </ul>
+                </li>
+                <li><a href="" id="service-test">Service</a>
+                    <ul class="dropdown-menu" id="menu7">
+                      <li><a href="./Repair.html" class="line-1">Repair Services</a></li>
+                      <br>
+                      <li><a href="" class="line-2">Installation Services</a></li>
+                      <br>
+                      <li><a href="" class="line-2">Engraving Services</a></li>
+                      <br>
+                      <li><a href="./Tradein.html" class="line-2">Trade-in</a></li>
+                      <br>
+                      <li><a href="./Check Imei.html" class="line-2">Check IMEI</a></li>
+                      <br>
+                      <li><a href="./Custom Case.html" class="line-2">Custom Cases for iPhone</a></li>
+                      <br>
+                      <li><a href="./Guarantee Policy.html" class="line-4">Warranty</a></li>
+                </ul>
+                </li>
+                <li><a href="" id="promo-test">Promotion</a>
+                    <ul class="dropdown-menu" id="menu8">
+                      <li><a href="./Exchange Points.html" class="line-1">Exchange Points</a></li>
+                      <br>
+                      <li><a href="" class="line-2">Flash Sale</a></li>
+                      <br>
+                      <li><a href="" class="line-4">Gift Away</a></li>
+                </ul>
+                </li>
+                <li><a href="" id="ex-test">Explore</a>
+                    <ul class="dropdown-menu" id="menu9">
+                        <li><a href="./About us.html" class="line-1">About PKAAK</a></li>
+                        <br>
+                        <li><a href="./Contact Us.html" class="line-2">Our Stores</a></li>
+                        <br>
+                        <li><a href="./news.html" class="line-2">News</a></li>
+                        <br>
+                        <li><a href="" class="line-2">Payment Guide</a></li>
+                        <br>
+                        <li><a href="./Installment.html" class="line-2">Financing & Credit</a></li>
+                        <br>
+                        <li><a href="./Guarantee Policy.html" class="line-2">Guarantee Policy</a></li>
+                        <br>
+                        <li><a href="" class="line-4">Privacy Policy</a></li>
+                </ul>
+                </li>
+             </ul>     
+             </ul>                                             
+                  </div>
+                  <div class="col-xl-2 col-lg-2" id="userspace">
+                    <ul>
+                        <li>
+                            <a id="usertologin"><i class="fa-regular fa-user"></i></a>
+                            
+                            <ul class="login-menu" id="login-menu1">
+                                <li><a href="./Login.html" id="signinz" style="text-align: left; padding-left: 30px;height: 52px;line-height: 42px;" >Sign in</a></li>
+                                <hr style= "width: 70%; background-color: black; align: center; margin-top: 6px;">
+                                <li><a href="./Sign up.html" id="signupz" style="text-align: left; padding-left: 30px;height: 40px;line-height: 10px;margin-bottom: 0px;">Sign up</a></li>
+                        </ul>
+                    
+                        </li>
+                        <li><a href="./cart.html"><i class="fa-regular fa-cart-shopping"></i></a></li>
+                        <li><a id="search"><i class="fa-regular fa-magnifying-glass"></i></a></li>
+                      </ul> 
+                </div>
+            
+        </div><!-- Navi -->
+        </div>
+    </div>
+  <!--  HEADER LG&XL -->
+  
+  <!-- HEADER MD SM XS -->
+  <div class="container-fluid d-lg-none" id="bgheader1">
+  <div class="container" id="header2">
+  <div class="row">
+  <!--Logo-->
+  <div class="col-5" id="logoinheader">
+      <ul>
+          <li><a href="./Home.html"><img src="./imgs/logo/logo.png" alt="" class="img-fluid"></a></li>
+        </ul>
+        </div>  <!--Logo-->
+  
+  <!-- Navi -->
+  <div class="col-6 offset-1" id="userspace">
+      <ul>
+          <!--Icon3line-->
+          <li><a id="triggermobilenavi"><i class="fa-regular fa-bars"></i></a></li> <!--Icon3line-->
+          <li>
+              <a href="./Login.html"><i class="fa-regular fa-user"></i></a>
+  
+          </li>
+          <li><a href="./cart.html"><i class="fa-regular fa-cart-shopping"></i></a></li>
+          <li><a id="search1"><i class="fa-regular fa-magnifying-glass"></i></a></li>                                       
+        </ul> 
+  </div>
+      
+  </div><!-- Navi -->
+  </div>
+  </div>
+      <!--  HEADER MD SM XS -->
+
+
+    <!-- Main content -->
+
+    <!-- banner -->
+    <div class="banner">
+      <img src="imgs/Image/bannerIndex.png" alt="banner">
+    </div>
+
+    <!-- category -->
+     <div class="category container-fluid">
+      <div id="list-categories" class="row list-categories mt-4 justify-content-center align-items-center"></div>
+     </div>
+
+<!-- Adressbar-->
+<div class="container-fluid" id="bgcontent">
+    <div class="container">
+        <div class="row">
+              <!--Addressbar-->
+          <div class="col-xl-12" id="Addressbar" style="margin-top: 10px;">
+            <ul>
+                <li><a href="./Home.html" id="something">Home</a></li>
+            </ul>
+            <ul>
+                <li><a class="slash" style="color: black;">/</a></li>
+            </ul>
+            <ul>
+                <li><a href="" id="something">Service</a></li>
+            </ul>
+            <ul>
+                <li><a class="slash" style="color: black;">/</a></li>
+            </ul>
+            <ul>
+                <li><a id="productdes">Trade-in</a></li>
+            </ul>
+            </div>
+            </div>
+            </div>
+            </div> <!-- Adressbar-->
+
+     <!-- program rules -->
+      <div class="program-rules container-fluid" style="margin-top: 20px;">
+        <h4>Program Rules</h4>
+        <div class="dynamic-grid">
+            <div class="image">
+                <img src="imgs/Image/checklist.png" alt="image">
+            </div>
+            <div class="content">
+                <h5>Program Instances</h5>
+                <p>Products that apply old revenue: iPhone, iPad,  Apple Watch</p>
+                <p>Up-to-date products: All products of Mobile Phone, Tablet PC, Laptop and Wearable Device.</p>
+                <p>Application period: Until the end of December 31, 2024.</p>
+            </div>
+            <div class="button">
+                <button onclick="openPopUp()">See more ></button>
+            </div>
+        </div>
+      </div>
+
+      <!-- reference products -->
+       <div class="reference-products container-fluid mt-5">
+            <h4>Reference Products</h4>
+            <div id="reference-products" class="row mt-4 justify-content-center align-items-center"></div>
+            <div class="note d-none d-md-block">
+                <span><b>NOTE:</b> The above price is REFERENCE ONLY depending on many factors</span>
+            </div>
+            <div class="btn-seemore d-none d-md-flex">
+                <button>See more ></button>
+            </div>
+       </div>
+
+       <!-- online evaluation -->
+        <div class="evaluation container-fluid mt-5">
+            <h4>Online Evaluation</h4>
+            <form class="row mt-4 m-2" action="#" method="post">
+                <div class="col-12 col-md-6 p-4">
+                    <input class="col-12 col-md-10 mb-4" type="email" placeholder="YOUR EMAIL">
+                    <input class="col-12 col-md-10 mb-4" type="text" placeholder="YOUR PHONE NUMBER">
+                    <textarea rows="5" class="col-12" name="description" id="" placeholder="DESCRIPTION OF YOUR MACHINE STATUS"></textarea>
+                </div>
+                <div class="col-12 col-md-6 p-4 pt-0 pt-md-4">
+                    <div class="upload">
+                        <p>UPLOAD AT LEAST 5 IMAGES OF MULTIPLE ANGLE OF YOUR MACHINE</p>
+                        <input type="file" style="display: none;">
+                        <div class="btn-upload"><button>Upload</button></div>
+                    </div>
+                    <div class="note mt-4 d-none d-lg-block">
+                        <b>Note: </b> <br>
+                        <p class="m-0">we will give you a preliminary evaluation and inform you within 5 days from the date of receiving the information.</p>
+                        <ul class="m-0">
+                            <li>Preliminary price</li>
+                            <li>A direct appointment</li>
+                            <li>Letter of thanks</li>
+                        </ul>
+                        <p>if you are far away we will assist in checking by express : DHL, Shopee, Lazada.</p>
+                    </div>
+                    <div class="submit d-flex d-md-none d-lg-flex my-3">
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+            </form>
+
+            <div class="row">
+                <div class="col-12 col-md-6 d-block d-lg-none">
+                    <div class="note mx-4">
+                        <b>Note: </b> <br>
+                        <p class="m-0">We will give you a preliminary evaluation and inform you within 5 days from the date of receiving the information.</p>
+                        <ul class="m-0">
+                            <li>Preliminary price</li>
+                            <li>A direct appointment</li>
+                            <li>Letter of thanks</li>
+                        </ul>
+                        <p>If you are far away we will assist in checking by express : DHL, Shopee, Lazada.</p>
+                    </div>
+                </div>
+                <div class="col-6 d-none d-md-flex d-lg-none" style="display: flex; justify-content: end; align-items: end;">
+                    <div class="submit2 my-3">
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!--  -->
+
+    <!-- Pop up -->
+
+    <div class="popup" id="popup">
+        <div class="notification container-fluid">
+            <div class="content">
+                <p>Program Instances</p>
+                <p>Products that apply old revenue: iPhone, Samsung, Oppo, Xiaomi, Honor, Realme; Samsung Tablet, iPad. Apple Watch Smart Watch, Garmin.</p>
+                <p>Up-to-date products: All products of Mobile Phone, Tablet PC, Laptop and Wearable Device.</p>
+                <p>Application period: Until the end of December 31, 2024.</p>
+                <p>Participants: Customers with a small ̂ are owners of phones and tablets are on the purchase list that meet the requirements for phone ̂ phones with ̛ parties to:</p>
+                <p>- The machine can be powered on, powered off, and has no errors starting.</p>
+                <p>- The machine has ̛ turned off/off ̂ and logged out of all features and ̆ protected machine and remote machine lockout as ̛: Lock screen, iCloud, Samsung, Google, etc.</p>
+                <p>- Without purchasing a phone, the tablet PC was so damaged that it could not check the features.</p>
+                <p>- Laptop lines: The correct machine information must be displayed, "Do not use 3rd party software to change machine information", displaying IMEI after pressing *#06# command, must be able to activate the device, using the Vietnamese carrier SIM (not using a paired SIM).</p>
+                <p>Purchase price and subsidy from FPT Shop: The purchase price of used machines based on the machine status by appraisal type plus the subsidy amount from FPT Shop in detail as follows:</p>
+                <p>Type 1: Full-function machine, no dents and scratches.</p>
+                <p>Type 2: Full-function machine, slight scratches and dents.</p>
+                <p>Type 3: Full-function machine, many scratches and dents.</p>
+                <p>SPECIAL: PKAAK offers an additional 15% of the respective purchasing machine value.</p>
+                <p>The price is only reference. Please bring the machine to the nearest FPT Shop for a more accurate price assessment.</p>
+                <p>(*) ̂ store staff for the exact amount you saved ̂ while upgrading from your old machine. In the event that the machine does not satisfy all ̂ graphics ̆ all ̂ requirements for the appliance status ̛ above, the machine might not meet ̛ acquisition requirements.</p>
+                <p>NOTE:</p>
+                <p>- Included with the Hot Sale promotion.</p>
+                <p>- Online installment payment programs such as: Installment through Alepay, Cash Settlement Portal, etc. are not applied.</p>
+                <p>- Online discount code promotions are not applicable.</p>
+                <p>- Do not apply return and exchange of products as needed.</p>
+                <p>PKAAK appreciates every moment of your service.</p>
+            </div>
+
+            <button class="btn-closer" onclick="closePopUp()">X</button>
+        </div>
+    </div>
+    <!--  -->
+
+    
+<!--  FOOTER XL&LG -->
+<div class="container-fluid d-none d-lg-block" id="bgfooter">
+    <div class="container">
+    <div class="row">
+    <!--  footerbox 1 -->
+    <div class="col-xl-3 col-lg-3" id="storelocator">
+        <ul>
+            <li><a href=""><h5>Store Locator</h5></a></li>                                  
+            <li><a href="./Contact Us.html"><p>Find our nearest store</p></a></li> 
+            <br>
+            <li><a href=""id="sustain"><h5>Substainability</h5></a></li>
+            <li><a href=""><p>Road to Sustainability</p></a></li>                          
+            <li><a href=""><p>Vision about Sustainability</p></a></li> 
+            <li><a href=""><p>Environment</p></a></li>                                   
+          </ul>
+    </div><!--  footerbox 1 -->
+    
+    <div class="col-xl-9 col-lg-9" id="infofooter">
+        <div class="row">
+            
+        <!--  footerbox 2 -->
+        <div class="col-xl-3 col-lg-3">
+        <ul>
+            <li><a href=""><h5>Shop & Offers</h5></a></li>                                  
+            <li><a href="./product.html"><p>iPhone</p></a></li>
+            <li><a href="./product.html"><p>iPad</p></a></li>                                
+            <li><a href="./product.html"><p>Mac</p></a></li>
+            <li><a href="./product.html"><p>Watch</p></a></li>
+            <li><a href="./product.html"><p>AirPods</p></a></li>
+            <li><a href="./Accessories.html"><p>Accessories</p></a></li>
+            <li><a href=""><p>Offers & Promotions</p></a></li>
+          </ul><!--  footerbox 2 -->
+        </div>
+    
+        <!--  footerbox 3 -->
+        <div class="col-xl-3 col-lg-3">
+        <ul>
+            <li><a href=""><h5>Policy</h5></a></li>                                  
+            <li><a href=""><p>Operation Policy</p></a></li> 
+            <li><a href=""><p>Delivery</p></a></li>
+            <li><a href="./Guarantee Policy.html"><p>Exchange And Return</p></a></li> 
+            <li><a href=""><p>Hardware Warranties</p></a></li> 
+            <li><a href=""><p>Policy On Information Confidentiality</p></a></li>                            
+          </ul><!--  footerbox 3 -->
+        </div>
+        <!--  footerbox 4 -->
+        <div class="col-xl-3 col-lg-3">
+        <ul>
+            <li><a href=""><h5>Support</h5></a></li>                                  
+            <li><a href="./Check Imei.html"><p>Check IMEI</p></a></li>
+            <li><a href="./Contact Us.html"><p>Contact Us</p></a></li>
+            <li><a href=""><p>Check Order Status</p></a></li>
+            <li><a href="./FAQ's.html"><p>FAQ</p></a></li>
+            <li><a href=""><p>Give Feedback</p></a></li>                                        
+          </ul><!--  footerbox 4 -->
+          </div>
+        <!-- footerbox 5 -->
+        <div class="col-xl-3 col-lg-3">
+        <ul>
+            <li><a href=""><h5>About Us</h5></a></li>                                  
+            <li><a href=""><p>Our Company</p></a></li>
+            <li><a href=""><p>Feedbacks from Customers</p></a></li>   
+            <li><a href=""><p>Payment Methods</p></a></li>   
+            <li><a href="./RECRUITMENT.html"><p>Careers</p></a></li>                          
+          </ul>
+        </div>
+          <!-- footerbox 5 -->
+    </div>
+    </div>
+    </div>
+    
+    </div>
+    
+    <div class="container">
+    <div class="row justify-content-center">
+    <div class="col-xl-6" id="allsocialmedia"> 
+        <ul>
+            <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+         </ul>
+    </div>
+    </div>
+    </div>
+    <hr style= "width: 100%; background-color: white; align: left">
+    <div class="container">
+        <div class="row">
+        <div class="col-xl-9 col-lg-9" id="Copyright">
+            <div class="row">
+                <div class="col-xl-6 col-lg-5">
+            <p>PKAAK Company. All rights reserved.</p>
+        </div>
+        <div class="col-xl-6 col-lg-7" id="Sitemap">
+            <ul>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Accessibility Help</a></li>
+                <li><a href="">Sitemap</i></a></li>
+             </ul>
+        </div>
+    </div>
+    </div>  
+    <div class="col-xl-3 col-lg-3" id="Language">
+        <ul>
+            <li><a href=""><p>English</p></a></li>
+         </ul>
+    
+    
+    </div>
+    
+        </div>
+        </div>
+    
+    </div>
+    <!--  FOOTER XL&LG --> 
+    <!--  FOOTER MD SM XS --> 
+    <div class="container-fluid d-lg-none" id="bgfooter">
+    
+       <!--  footerbox 0 -->  
+       <div class="container" id="footerinfoexpand0">
+        <div class="row">
+            <div class="col-4 footerxsm" id="">
+                <ul>
+                    <li><a id=""><p>Store Locator</p></a></li>
+                 </ul>
+            </div>
+            <div class="col-4 offset-4 expand">
+                <ul>
+                    <li><a id="expandplus0"><i class="fa-regular fa-chevron-down"></i></a></li>
+                 </ul> 
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12 expandedinfo" id="expandedfooter0">
+                <ul>
+                    <li><a href=""><p>Find our Nearest Stores</p></a></li>
+                 </ul>
+            </div>
+            </div>
+            </div>
+            <hr style= "width: 100%; background-color: white; align: left">
+    <!--  footerbox 0 --> 
+    
+     <!--  footerbox 1 -->         
+                <div class="container" id="footerinfoexpand1">
+                <div class="row">
+                    <div class="col-4 footerxsm" id="">
+                        <ul>
+                            <li><a id=""><p>Shop & Offers</p></a></li>
+                         </ul>
+                    </div>
+                    <div class="col-4 offset-4 expand">
+                        <ul>
+                            <li><a id="expandplus1"><i class="fa-regular fa-chevron-down"></i></a></li>
+                         </ul> 
+                    </div>
+                    </div>
+             <div class="row">
+            <div class="col-12 expandedinfo" id="expandedfooter1">
+                <ul>
+                    <li><a href=""><p>iPhone</p></a></li>
+                    <li><a href=""><p>iPad</p></a></li>                                
+                    <li><a href=""><p>Mac</p></a></li>
+                    <li><a href=""><p>Watch</p></a></li>
+                    <li><a href=""><p>AirPods</p></a></li>
+                    <li><a href=""><p>Accessories</p></a></li>
+                    <li><a href=""><p>Promotions</p></a></li>
+                 </ul>
+            </div>
+            </div>   
+                    </div> <!--  footerbox 1 -->  
+                    <hr style= "width: 100%; background-color: white; align: left">
+      <!--  footerbox 2 -->            
+                    <div class="container" id="footerinfoexpand2">
+                    <div class="row">
+                        <div class="col-4 footerxsm">
+                            <ul>
+                                <li><a id=""><p>Policy</p></a></li>
+                             </ul>
+                        </div>
+                        <div class="col-4 offset-4 expand">
+                            <ul>
+                                <li><a id="expandplus2"><i class="fa-regular fa-chevron-down"></i></a></li>
+                             </ul> 
+                        </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 expandedinfo" id="expandedfooter2">
+                                <ul>
+                                    <li><a href="./product.html"><p>Operation Policy</p></a></li> 
+                                    <li><a href="./product.html"><p>Delivery</p></a></li>
+                                    <li><a href="./product.html"><p>Exchange And Return</p></a></li> 
+                                    <li><a href="./product.html"><p>Hardware Warranties</p></a></li> 
+                                    <li><a href="./product.html"><p>Policy On Information Confidentiality</p></a></li>      
+                                 </ul>
+                            </div>
+                            </div> 
+                        </div> <!--  footerbox 2 -->  
+                        <hr style= "width: 100%; background-color: white; align: left">
+    
+                      <!--  footerbox 3 -->    
+                      <div class="container" id="footerinfoexpand3">
+                        <div class="row">
+                         <div class="col-4 footerxsm" id="">
+                                <ul>
+                                    <li><a id=""><p>Support</p></a></li>
+                                    </ul>
+                        </div>
+                        <div class="col-4 offset-4 expand">
+                            <ul>
+                                <li><a id="expandplus3"><i class="fa-regular fa-chevron-down"></i></a></li>
+                             </ul> 
+                        </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 expandedinfo" id="expandedfooter3">
+                                <ul>
+                                    <li><a href="./Check Imei.html"><p>Check IMEI</p></a></li> 
+                                    <li><a href="./Contact Us.html"><p>Contact Us</p></a></li>
+                                    <li><a href="./Guarantee Policy.html"><p>Check Order Status</p></a></li> 
+                                    <li><a href="./FAQ's.html"><p>FAQ</p></a></li> 
+                                    <li><a href=""><p>Give feedback</p></a></li>      
+                                 </ul>
+                            </div>
+                            </div> 
+                        </div> <!--  footerbox 3 -->  
+                        <hr style= "width: 100%; background-color: white; align: left">
+
+
+                                           <!--  footerbox 3.5 -->       
+                   <div class="container" id="footerinfoexpand5">
+                    <div class="row">
+                     <div class="col-4 footerxsm" id="">
+                            <ul>
+                                <li><a id=""><p>Substainability</p></a></li>
+                                </ul>
+                    </div>
+                    <div class="col-4 offset-4 expand">
+                        <ul>
+                            <li><a id="expandplus5"><i class="fa-regular fa-chevron-down"></i></a></li>
+                         </ul> 
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 expandedinfo" id="expandedfooter5">
+                            <ul>
+                                <li><a href=""><p>Road to Sustainability</p></a></li> 
+                                <li><a href=""><p>Vision about Sustainability</p></a></li>
+                                <li><a href=""><p>Environment</p></a></li>   
+                             </ul>
+                        </div>
+                        </div> 
+                    </div> <!--  footerbox 3.5 -->  
+                    <hr style= "width: 100%; background-color: white; align: left">
+    
+                   <!--  footerbox 4 -->       
+                   <div class="container" id="footerinfoexpand4">
+                            <div class="row">
+                             <div class="col-4 footerxsm" id="">
+                                    <ul>
+                                        <li><a id=""><p>About Us</p></a></li>
+                                        </ul>
+                            </div>
+                            <div class="col-4 offset-4 expand">
+                                <ul>
+                                    <li><a id="expandplus4"><i class="fa-regular fa-chevron-down"></i></a></li>
+                                 </ul> 
+                            </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 expandedinfo" id="expandedfooter4">
+                                    <ul>
+                                        <li><a href=""><p>Our Company</p></a></li> 
+                                        <li><a href=""><p>Feedbacks from Customers</p></a></li>
+                                        <li><a href=""><p>Payment Methods</p></a></li> 
+                                        <li><a href="./RECRUITMENT.html"><p>Careers</p></a></li>     
+                                     </ul>
+                                </div>
+                                </div>
+                            </div> <!--  footerbox 4 -->  
+                            <hr style= "width: 100%; background-color: white; align: left">
+    
+                       <!--  footerbox 5 -->       <div class="container">
+                                <div class="row">
+                                 <div class="col-4 footerxsm" id="">
+                                        <ul>
+                                            <li><a id=""><p>Language</p></a></li>
+                                            </ul>
+                                </div>
+                                <div class="col-4 offset-4 expand">
+                                    <ul>
+                                        <li><a href="">English</i></a></li>
+                                     </ul> 
+                                </div>
+                                </div>
+                                </div> <!--  footerbox 5 -->  
+                                
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                      <div class="col-12 justify-content-center" id="Sitemap2">                                    
+                                            <ul>
+                                                <li><a href="">Privacy Policy</a></li>
+                                                <li><a href="">Accessibility Help</a></li>
+                                                <li><a href="">Sitemap</i></a></li>
+                                             </ul>
+                                      </div>  
+                                    <div class="col-8" id="allsocialmedia"> 
+                                        <ul>
+                                            <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                                            <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
+                                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                         </ul>
+                                    </div>
+                                    <div class="col-10" id="Copyright2">
+                                        <p>PKAAK Company. All rights reserved.</p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+
+    <!-- JS script -->
+     <script src="js/dontnow.js"></script>
+     <script src="js/categories.js"></script>
+     <script src="js/referenceProducts.js"></script>
+     <script src="./js/jquery-3.4.1.min.js"></script>
+     
+     <script>
+        $(document).ready(function(){
+//HOME//
+$("#topbtn").hide();
+            $("#expandedfooter0").hide();
+            $("#expandedfooter1").hide();
+            $("#expandedfooter2").hide();
+            $("#expandedfooter3").hide();
+            $("#expandedfooter4").hide();
+            $("#expandedfooter5").hide();
+            $("#blackscreen").hide();
+            $("#blackscreen2").hide();
+            $("#blackscreen3").hide();
+            $("#Searchareatest").hide();
+            $(".mobilenavi").hide();
+            $("#mobilenaviscreen").hide();
+            $("#ipscreen").hide();
+            $("#ipadscreen").hide();
+            $("#macscreen").hide();
+            $("#watchscreen").hide();
+            $("#airpodscreen").hide();
+            $("#accessscreen").hide();
+            $("#servicescreen").hide();
+            $("#Promoscreen").hide();
+            $("#explorescreen").hide();
+                       
+            //Searchbox//
+            $("#search").click(function(){
+                $("#blackscreen").fadeToggle();
+                $("#Searchareatest").fadeToggle();
+                $("#Header1").fadeToggle();
+            })
+
+            $("#search1").click(function(){
+                $("#blackscreen3").fadeToggle();
+                $("#Searchareatest").fadeToggle();
+                $("#header2").fadeToggle();
+            })
+            //Menu1//
+            $("#menu1").mouseover(function(){
+                $("#ip-test").css("color","#b3b3b3");
+            })
+
+            $("#menu1").mouseleave(function(){
+                $("#ip-test").css("color","black");
+            })
+
+            $("#ip-test").mouseover(function(){
+                $("#ip-test").css("color","#b3b3b3");
+            })
+
+            $("#ip-test").mouseleave(function(){
+                $("#ip-test").css("color","black");
+            })
+            //Menu1//
+
+            //Menu2//
+            $("#menu2").mouseover(function(){
+                $("#ipad-test").css("color","#b3b3b3");
+            })
+
+            $("#menu2").mouseleave(function(){
+                $("#ipad-test").css("color","black");
+            })
+
+            $("#ipad-test").mouseover(function(){
+                $("#ipad-test").css("color","#b3b3b3");
+            })
+
+            $("#ipad-test").mouseleave(function(){
+                $("#ipad-test").css("color","black");
+            })
+
+            //Menu2//
+
+            //Menu3//
+            $("#menu3").mouseover(function(){
+                $("#mac-test").css("color","#b3b3b3");
+            })
+
+            $("#menu3").mouseleave(function(){
+                $("#mac-test").css("color","black");
+            })
+
+            $("#mac-test").mouseover(function(){
+                $("#mac-test").css("color","#b3b3b3");
+            })
+
+            $("#mac-test").mouseleave(function(){
+                $("#mac-test").css("color","black");
+            })
+            //Menu3//
+
+             //Menu4//
+             $("#menu4").mouseover(function(){
+                $("#watch-test").css("color","#b3b3b3");
+            })
+
+            $("#menu4").mouseleave(function(){
+                $("#watch-test").css("color","black");
+            })
+
+            $("#watch-test").mouseover(function(){
+                $("#watch-test").css("color","#b3b3b3");
+            })
+
+            $("#watch-test").mouseleave(function(){
+                $("#watch-test").css("color","black");
+            })
+            //Menu4//           
+
+             //Menu5//
+             $("#menu5").mouseover(function(){
+                $("#air-test").css("color","#b3b3b3");
+            })
+
+            $("#menu5").mouseleave(function(){
+                $("#air-test").css("color","black");
+            })
+
+            $("#air-test").mouseover(function(){
+                $("#air-test").css("color","#b3b3b3");
+            })
+
+            $("#air-test").mouseleave(function(){
+                $("#air-test").css("color","black");
+            })
+            //Menu5//   
+
+              //Menu6//
+              $("#menu6").mouseover(function(){
+                $("#access-test").css("color","#b3b3b3");
+            })
+
+            $("#menu6").mouseleave(function(){
+                $("#access-test").css("color","black");
+            })
+
+            $("#access-test").mouseover(function(){
+                $("#access-test").css("color","#b3b3b3");
+            })
+
+            $("#access-test").mouseleave(function(){
+                $("#access-test").css("color","black");
+            })
+            //Menu6//              
+
+             //Menu7//
+                          $("#menu7").mouseover(function(){
+                $("#service-test").css("color","#b3b3b3");
+            })
+
+            $("#menu7").mouseleave(function(){
+                $("#service-test").css("color","black");
+            })
+
+            $("#service-test").mouseover(function(){
+                $("#service-test").css("color","#b3b3b3");
+            })
+
+            $("#service-test").mouseleave(function(){
+                $("#service-test").css("color","black");
+            })
+            //Menu7//   
+
+             //Menu8//
+             $("#menu8").mouseover(function(){
+                $("#promo-test").css("color","#b3b3b3");
+            })
+
+            $("#menu8").mouseleave(function(){
+                $("#promo-test").css("color","black");
+            })
+
+            $("#promo-test").mouseover(function(){
+                $("#promo-test").css("color","#b3b3b3");
+            })
+
+            $("#promo-test").mouseleave(function(){
+                $("#promo-test").css("color","black");
+            })
+            //Menu8//  
+
+            
+             //Menu9//
+             $("#menu9").mouseover(function(){
+                $("#ex-test").css("color","#b3b3b3");
+            })
+
+            $("#menu9").mouseleave(function(){
+                $("#ex-test").css("color","black");
+            })
+
+            $("#ex-test").mouseover(function(){
+                $("#ex-test").css("color","#b3b3b3");
+            })
+
+            $("#ex-test").mouseleave(function(){
+                $("#ex-test").css("color","black");
+            })
+            //Menu9// 
+
+            $(".login-menu").mouseover(function(){
+                $("#usertologin").css("color","#b3b3b3");
+            })
+
+            $(".login-menu").mouseleave(function(){
+                $("#usertologin").css("color","black");
+            })
+
+            $("#usertologin").mouseover(function(){
+                $("#usertologin").css("color","#b3b3b3");
+            })
+
+            $("#usertologin").mouseleave(function(){
+                $("#usertologin").css("color","black");
+            })
+
+
+            //Search//
+
+
+            //BLACK SCREEN//
+            $("#blackscreen").click(function(){
+                $("#blackscreen").fadeOut();
+                $("#Searchareatest").fadeOut();
+                $("#Header1").fadeToggle();
+            })
+
+            $("#blackscreen3").click(function(){
+                $("#blackscreen3").fadeOut();
+                $("#Searchareatest").fadeOut();
+                $("#header2").fadeToggle();
+            })
+
+            //BLACK SCREEN//
+
+            //BLACK SCREEN 2//
+            $("#blackscreen2").click(function(){
+                $("#blackscreen2").fadeOut();
+                $(".mobilenavi").fadeOut();
+                $("#mobilenaviscreen").fadeOut();
+                $("#ipscreen").fadeOut();
+                $("#ipadscreen").fadeOut();
+                $("#macscreen").fadeOut();
+                $("#watchscreen").fadeOut();
+                $("#airpodscreen").fadeOut();
+                $("#accessscreen").fadeOut();
+                $("#servicescreen").fadeOut();
+                $("#Promoscreen").fadeOut();
+                $("#explorescreen").fadeOut();
+            })
+
+            //BLACK SCREEN 2//
+
+            //Mobile navi// 
+            $("#triggermobilenavi").click(function(){
+                $("#mobilenaviscreen").fadeToggle();
+                $(".mobilenavi").fadeToggle();
+                $("#blackscreen2").fadeToggle();
+            })
+
+            $(".backtonavi").click(function(){
+                $("#mobilenaviscreen").fadeToggle();
+                $("#ipscreen").fadeOut();
+                $("#ipadscreen").fadeOut();
+                $("#macscreen").fadeOut();
+                $("#watchscreen").fadeOut();
+                $("#airpodscreen").fadeOut();
+                $("#accessscreen").fadeOut();
+                $("#servicescreen").fadeOut();
+                $("#Promoscreen").fadeOut();
+                $("#explorescreen").fadeOut();
+            })
+
+            $("#triggerexplore").click(function(){
+                $("#mobilenaviscreen").fadeToggle();
+                $("#explorescreen").fadeToggle();
+            })
+
+            $("#triggeriphone").click(function(){
+                $("#mobilenaviscreen").fadeToggle();
+                $("#ipscreen").fadeToggle();
+            })
+
+            $("#triggeripad").click(function(){
+                $("#mobilenaviscreen").fadeToggle();
+                $("#ipadscreen").fadeToggle();
+            })
+
+            $("#triggermac").click(function(){
+                $("#mobilenaviscreen").fadeToggle();
+                $("#macscreen").fadeToggle();
+            })
+
+            $("#triggerwatch").click(function(){
+                $("#mobilenaviscreen").fadeToggle();
+                $("#watchscreen").fadeToggle();
+            })
+
+            $("#triggerair").click(function(){
+                $("#mobilenaviscreen").fadeToggle();
+                $("#airpodscreen").fadeToggle();
+            })
+
+            $("#triggeraccess").click(function(){
+                $("#mobilenaviscreen").fadeToggle();
+                $("#accessscreen").fadeToggle();
+            })
+
+            $("#triggerservice").click(function(){
+                $("#mobilenaviscreen").fadeToggle();
+                $("#servicescreen").fadeToggle();
+            })
+
+            $("#triggerpromo").click(function(){
+                $("#mobilenaviscreen").fadeToggle();
+                $("#Promoscreen").fadeToggle();
+            })
+            
+
+            //Footer info expansion// 
+            $("#footerinfoexpand0").click(function(){
+                $("#expandedfooter0").slideToggle();
+                $("#expandedfooter1").slideUp();
+                $("#expandedfooter2").slideUp();
+                $("#expandedfooter3").slideUp();
+                $("#expandedfooter4").slideUp();
+                $("#expandedfooter5").slideUp();
+                $("#expandplus0 i").toggleClass("fa-chevron-down fa-chevron-up");
+                $("#expandplus1 i").removeClass("fa-chevron-up");
+                $("#expandplus2 i").removeClass("fa-chevron-up");
+                $("#expandplus3 i").removeClass("fa-chevron-up");
+                $("#expandplus4 i").removeClass("fa-chevron-up");
+                $("#expandplus5 i").removeClass("fa-chevron-up");
+
+                $("#expandplus1 i").addClass("fa-chevron-down");
+                $("#expandplus2 i").addClass("fa-chevron-down");
+                $("#expandplus3 i").addClass("fa-chevron-down");
+                $("#expandplus4 i").addClass("fa-chevron-down");
+                $("#expandplus5 i").addClass("fa-chevron-down");
+            })
+
+            $("#footerinfoexpand1").click(function(){
+                $("#expandedfooter1").slideToggle();
+                $("#expandedfooter0").slideUp();
+                $("#expandedfooter2").slideUp();
+                $("#expandedfooter3").slideUp();
+                $("#expandedfooter4").slideUp();
+                $("#expandedfooter5").slideUp();
+                $("#expandplus1 i").toggleClass("fa-chevron-down fa-chevron-up");
+                $("#expandplus0 i").removeClass("fa-chevron-up");
+                $("#expandplus2 i").removeClass("fa-chevron-up");
+                $("#expandplus3 i").removeClass("fa-chevron-up");
+                $("#expandplus4 i").removeClass("fa-chevron-up");
+                $("#expandplus5 i").removeClass("fa-chevron-up");
+
+                $("#expandplus0 i").addClass("fa-chevron-down");
+                $("#expandplus2 i").addClass("fa-chevron-down");
+                $("#expandplus3 i").addClass("fa-chevron-down");
+                $("#expandplus4 i").addClass("fa-chevron-down");
+                $("#expandplus5 i").addClass("fa-chevron-down");
+            })
+
+            $("#footerinfoexpand2").click(function(){
+                $("#expandedfooter2").slideToggle();
+                $("#expandedfooter1").slideUp();
+                $("#expandedfooter0").slideUp();
+                $("#expandedfooter3").slideUp();
+                $("#expandedfooter4").slideUp();
+                $("#expandedfooter5").slideUp();
+                $("#expandplus2 i").toggleClass("fa-chevron-down fa-chevron-up");
+                $("#expandplus0 i").removeClass("fa-chevron-up");
+                $("#expandplus1 i").removeClass("fa-chevron-up");
+                $("#expandplus3 i").removeClass("fa-chevron-up");
+                $("#expandplus4 i").removeClass("fa-chevron-up");
+                $("#expandplus5 i").removeClass("fa-chevron-up");
+
+                $("#expandplus0 i").addClass("fa-chevron-down");
+                $("#expandplus1 i").addClass("fa-chevron-down");
+                $("#expandplus3 i").addClass("fa-chevron-down");
+                $("#expandplus4 i").addClass("fa-chevron-down");
+                $("#expandplus5 i").addClass("fa-chevron-down");
+            })
+
+            $("#footerinfoexpand3").click(function(){
+                $("#expandedfooter3").slideToggle();
+                $("#expandedfooter1").slideUp();
+                $("#expandedfooter2").slideUp();
+                $("#expandedfooter0").slideUp();
+                $("#expandedfooter4").slideUp();
+                $("#expandedfooter5").slideUp();
+                $("#expandplus3 i").toggleClass("fa-chevron-down fa-chevron-up");
+                $("#expandplus0 i").removeClass("fa-chevron-up");
+                $("#expandplus2 i").removeClass("fa-chevron-up");
+                $("#expandplus1 i").removeClass("fa-chevron-up");
+                $("#expandplus4 i").removeClass("fa-chevron-up");
+                $("#expandplus5 i").removeClass("fa-chevron-up");
+
+                $("#expandplus0 i").addClass("fa-chevron-down");
+                $("#expandplus2 i").addClass("fa-chevron-down");
+                $("#expandplus1 i").addClass("fa-chevron-down");
+                $("#expandplus4 i").addClass("fa-chevron-down");
+                $("#expandplus5 i").addClass("fa-chevron-down");
+            })
+
+            $("#footerinfoexpand4").click(function(){
+                $("#expandedfooter4").slideToggle();
+                $("#expandedfooter1").slideUp();
+                $("#expandedfooter2").slideUp();
+                $("#expandedfooter3").slideUp();
+                $("#expandedfooter0").slideUp();
+                $("#expandedfooter5").slideUp();
+                $("#expandplus4 i").toggleClass("fa-chevron-down fa-chevron-up");
+
+                $("#expandplus0 i").removeClass("fa-chevron-up");
+                $("#expandplus2 i").removeClass("fa-chevron-up");
+                $("#expandplus1 i").removeClass("fa-chevron-up");
+                $("#expandplus3 i").removeClass("fa-chevron-up");
+                $("#expandplus5 i").removeClass("fa-chevron-up");
+                
+                $("#expandplus0 i").addClass("fa-chevron-down");
+                $("#expandplus2 i").addClass("fa-chevron-down");
+                $("#expandplus1 i").addClass("fa-chevron-down");
+                $("#expandplus3 i").addClass("fa-chevron-down");
+                $("#expandplus5 i").addClass("fa-chevron-down");           
+            })
+
+            $("#footerinfoexpand5").click(function(){
+                $("#expandedfooter5").slideToggle();
+                $("#expandedfooter1").slideUp();
+                $("#expandedfooter2").slideUp();
+                $("#expandedfooter3").slideUp();
+                $("#expandedfooter0").slideUp();
+                $("#expandplus5 i").toggleClass("fa-chevron-down fa-chevron-up");
+
+                $("#expandplus0 i").removeClass("fa-chevron-up");
+                $("#expandplus2 i").removeClass("fa-chevron-up");
+                $("#expandplus1 i").removeClass("fa-chevron-up");
+                $("#expandplus3 i").removeClass("fa-chevron-up");
+                $("#expandplus4 i").removeClass("fa-chevron-up");
+                
+                $("#expandplus0 i").addClass("fa-chevron-down");
+                $("#expandplus2 i").addClass("fa-chevron-down");
+                $("#expandplus1 i").addClass("fa-chevron-down");
+                $("#expandplus3 i").addClass("fa-chevron-down");
+                $("#expandplus4 i").addClass("fa-chevron-down");           
+            })
+            
+            //Footer info expansion// 
+
+            var scroll_pos=0;
+          $(document).scroll(function(){
+            scroll_pos = $(this).scrollTop();
+
+            if(scroll_pos>0){
+              $("#topbtn").show();
+            }else{
+              $("#topbtn").hide();
+            }
+          })
+        })
+</script>
+    <!-- Bootstrap 5 CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!--  -->
+</body>
+</html>
