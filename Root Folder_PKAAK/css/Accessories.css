@@ -1,0 +1,112 @@
+@charset "utf-8";
+#accessproductbox{
+    margin-bottom: 30px;
+}
+#accessproductbox ul img{
+    margin-top: 30px;
+}
+.price2 p{
+    margin-bottom: 10px;
+    }
+
+
+.price2 h5{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    }
+
+    .Memory{
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+        }
+
+#banneraccessories{
+    display: block;
+    margin-bottom: 50px;
+}
+#filter{
+    border: none;
+    border: solid 1pt black;
+    border-radius: 5px;
+    color: black;
+    background-color: transparent;
+    width: 125px;
+    height: 45px;
+    margin-bottom: 50px;
+}
+#sort{
+    border: none;
+    border: solid 1pt black;
+    border-radius: 5px;
+    color: black;
+    background-color: transparent;
+    width: 125px;
+    height: 45px;
+    margin-bottom: 50px;
+}
+.productbox ul{
+    font-family: medtextfont;
+    list-style-type: none;
+    margin-right: 0px;
+    padding: 0px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5pt;
+    border: solid 1pt#d6d6d684;
+    background-color: white;
+    font-size: 15px;
+    font-family: titlefont;
+}
+
+.imgproduct{
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.productbox{
+    text-decoration: none;
+    display: block;
+    list-style-type: none;
+    margin-right: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+.productbox ul li{
+    text-decoration: none;
+    display: block;
+    list-style-type: none;
+    margin-right: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+.productbox ul li a{
+    padding-right: 6px;
+    text-decoration: none;
+    color: black;
+    transition: all ease .5s;
+}
+#Buy-Nowbtn{
+    height: 40px;
+    width: 135px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    }
+#viewmore{
+    border: none;
+    border: solid 1pt black;
+    border-radius: 5px;
+    color: black;
+    background-color: transparent;
+    width: 160px;
+    height: 40px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 15px;
+}

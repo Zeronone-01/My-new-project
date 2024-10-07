@@ -1,0 +1,14 @@
+[
+    {   
+        "id":1,
+        "image": "http://127.0.0.1:5501/Image/image_prd_list/1.png",
+        "name": "Screen protector for iphone 13",
+        "price": "250.000₫"
+    },
+    {   
+        "id":1,
+        "image": "http://127.0.0.1:5501/Image/image_prd_list/1.png",
+        "name": "Screen protector for iphone 13",
+        "price": "250.000₫"
+    }
+]

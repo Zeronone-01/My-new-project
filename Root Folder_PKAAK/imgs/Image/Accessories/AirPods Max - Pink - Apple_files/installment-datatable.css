@@ -1,0 +1,51 @@
+.as-installment-datatable {
+  position: relative;
+}
+@media only screen and (max-width: 734px) and (max-device-width: 736px) {
+  .as-installment-datatable {
+    max-width: 100%;
+  }
+}
+.as-installment-datatable .as-installment-heading {
+  font-weight: 600;
+  text-align: start;
+  padding-bottom: 10px;
+}
+.as-installment-datatable .as-installment-heading:nth-child(1) {
+  width: 9.0588235294rem;
+  padding-inline-end: 0.8235294118rem;
+}
+@media only screen and (max-width: 734px) and (max-device-width: 736px) {
+  .as-installment-datatable .as-installment-heading:nth-child(1) {
+    width: 8.2352941176rem;
+  }
+}
+.as-installment-datatable .as-installment-heading:nth-child(2) {
+  text-align: end;
+  width: 3.9411764706rem;
+}
+@media only screen and (max-width: 734px) and (max-device-width: 736px) {
+  .as-installment-datatable .as-installment-heading:nth-child(2) {
+    width: 3.7058823529rem;
+  }
+}
+.as-installment-datatable .as-installment-heading:empty {
+  display: none;
+}
+.as-installment-datatable .as-installment-item-term {
+  text-align: start;
+  padding-bottom: 10px;
+}
+.as-installment-datatable .as-installment-item-interest {
+  text-align: end;
+  padding-bottom: 10px;
+}
+.as-installment-datatable .as-installment-item-offer {
+  position: absolute;
+  margin-inline-start: 1.7647058824rem;
+}
+@media only screen and (max-width: 734px) and (max-device-width: 736px) {
+  .as-installment-datatable .as-installment-item-offer {
+    margin-inline-start: 1.1764705882rem;
+  }
+}
